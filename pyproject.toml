@@ -30,3 +30,7 @@ packages = [
     "compliance_agent",
     "stages",
 ]
+
+[tool.pyright]
+extraPaths = ["Lab_Assignment"]
+
