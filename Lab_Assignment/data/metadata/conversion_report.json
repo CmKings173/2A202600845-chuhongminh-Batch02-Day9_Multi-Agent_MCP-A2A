@@ -1,0 +1,143 @@
+{
+  "legal": [
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/bo-luat-hinh-su-2015_part1.pdf",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/bo-luat-hinh-su-2015_part1.md",
+      "method": "pdftotext",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 93187
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/bo-luat-hinh-su-2015_part2.pdf",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/bo-luat-hinh-su-2015_part2.md",
+      "method": "pdftotext",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 162719
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/bo-luat-hinh-su-2015_part3.pdf",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/bo-luat-hinh-su-2015_part3.md",
+      "method": "pdftotext",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 188702
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/bo-luat-hinh-su-2015_part4.pdf",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/bo-luat-hinh-su-2015_part4.md",
+      "method": "pdftotext",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 146545
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/luat-phong-chong-ma-tuy-2021.doc",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/luat-phong-chong-ma-tuy-2021.md",
+      "method": "textutil",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 58267
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-105-2021-huong-dan-luat-phong-chong-ma-tuy.doc",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/nghi-dinh-105-2021-huong-dan-luat-phong-chong-ma-tuy.md",
+      "method": "textutil",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 144162
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai_part1.doc",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai_part1.md",
+      "method": "textutil",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 174767
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai_part2.doc",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai_part2.md",
+      "method": "textutil",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 119324
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-57-2022-danh-muc-chat-ma-tuy.doc",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/nghi-dinh-57-2022-danh-muc-chat-ma-tuy.md",
+      "method": "textutil",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 64208
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-90-2024-sua-doi-danh-muc-chat-ma-tuy.doc",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/legal/nghi-dinh-90-2024-sua-doi-danh-muc-chat-ma-tuy.md",
+      "method": "textutil",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 4598
+    }
+  ],
+  "news": [
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_01.json",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/news/article_01.md",
+      "method": "json_content_markdown",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 1055
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_02.json",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/news/article_02.md",
+      "method": "json_content_markdown",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 1929
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_03.json",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/news/article_03.md",
+      "method": "json_content_markdown",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 2742
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_04.json",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/news/article_04.md",
+      "method": "json_content_markdown",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 1936
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_05.json",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/news/article_05.md",
+      "method": "json_content_markdown",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 2032
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_06.json",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/news/article_06.md",
+      "method": "json_content_markdown",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 1926
+    },
+    {
+      "input": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_07.json",
+      "output": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/standardized/news/article_07.md",
+      "method": "json_content_markdown",
+      "ocr_used": false,
+      "ocr_required": false,
+      "chars": 1784
+    }
+  ],
+  "updated_at": "2026-06-08T09:38:35.472766+00:00"
+}

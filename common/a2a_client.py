@@ -44,10 +44,15 @@ async def delegate(
     Returns:
         The agent's text response, or an empty string if none could be extracted.
     """
-    async with httpx.AsyncClient(timeout=300.0) as http_client:
-        # Fetch agent card
-        card_url = f"{endpoint}/.well-known/agent.json"
+    # Generous timeout for local Ollama (can take several minutes per LLM call)
+    timeout = httpx.Timeout(600.0, connect=10.0)
+    async with httpx.AsyncClient(timeout=timeout) as http_client:
+        # Fetch agent card — try new endpoint, fall back to deprecated one
+        card_url = f"{endpoint}/.well-known/agent-card.json"
         card_resp = await http_client.get(card_url)
+        if card_resp.status_code == 404:
+            card_url = f"{endpoint}/.well-known/agent.json"
+            card_resp = await http_client.get(card_url)
         card_resp.raise_for_status()
         agent_card = AgentCard.model_validate(card_resp.json())
 
@@ -76,7 +81,9 @@ async def delegate(
             "Delegating to %s (depth=%d, trace=%s)", endpoint, depth, trace_id
         )
 
-        response = await client.send_message(request)
+        # Pass timeout explicitly via http_kwargs so the JSON-RPC transport
+        # doesn't apply its own shorter default timeout
+        response = await client.send_message(request, http_kwargs={"timeout": 600.0})
 
         # Extract text from SendMessageResponse
         return _extract_text(response)

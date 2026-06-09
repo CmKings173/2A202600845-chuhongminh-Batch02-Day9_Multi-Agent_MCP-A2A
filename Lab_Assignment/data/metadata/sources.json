@@ -1,0 +1,275 @@
+{
+  "legal": [
+    {
+      "id": "bo_luat_hinh_su_2015",
+      "title": "Luật số 100/2015/QH13 Bộ luật Hình sự",
+      "publisher": "Công báo Chính phủ",
+      "issued_date": "2015-11-27",
+      "effective_date": "2016-07-01",
+      "source_url": "https://congbao.chinhphu.vn/van-ban/luat-so-100-2015-qh13-18442.htm",
+      "preferred_slug": "bo-luat-hinh-su-2015",
+      "type": "legal",
+      "source_of_truth": "official_government_gazette",
+      "downloaded_at": "2026-06-08T09:38:06.949558+00:00",
+      "files": [
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/bo-luat-hinh-su-2015_part1.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRvsvDD79D8g54kcgDl-0nJXuEQ3TampG5IsR3iaMSbeUlQ3DdFg86OcPsNhleTuuTGKUpuEKWozKxTCuVWhGc6Q~~&file_name=In_CB+1263%2b1264+31-12-2015.signed.signed.pdf",
+          "file_type": "pdf",
+          "bytes": 560737
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/bo-luat-hinh-su-2015_part2.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRvsvDD79D8g54kcgDl-0nJclEzxiFKdlgpkdyAADRrs7SIbh5wSfgMlDsKpSRoW4cwaamAaTBHAbThY1rgjUehg~~&file_name=In_CB+1265%2b1266+31-12-2015.signed.signed.pdf",
+          "file_type": "pdf",
+          "bytes": 1436753
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/bo-luat-hinh-su-2015_part3.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRvsvDD79D8g54kcgDl-0nJUaqWHtCkAG4s0Ed_CQ5-fBxIuZSo5hjVyWYW7AXyqZyp15Bx5dkzfiITmz6SlRD9Q~~&file_name=In_CB+1267%2b1268+31-12-2015.signed.signed.pdf",
+          "file_type": "pdf",
+          "bytes": 1312576
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/bo-luat-hinh-su-2015_part4.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRvsvDD79D8g54kcgDl-0nJedXYuKZss8xDn259jG6y-dQBluwyxQV0byXqh3qzb_bNtX0vmuWRA2agMf_YOB764ZNVMUZXkqDiJe-Nw1GIGg~&file_name=In_CB+1269%2b1270+31-12-2015.signed.signed.signed.signed.signed.pdf",
+          "file_type": "pdf",
+          "bytes": 758485
+        }
+      ],
+      "ocr_used": false,
+      "ocr_note": "Official DOC/PDF downloaded from Công báo; OCR is only needed if text extraction fails."
+    },
+    {
+      "id": "luat_phong_chong_ma_tuy_2021",
+      "title": "Luật Phòng, chống ma túy 2021",
+      "publisher": "Công báo Chính phủ",
+      "issued_date": "2021-03-30",
+      "effective_date": "2022-01-01",
+      "source_url": "https://congbao.chinhphu.vn/thuoc-tinh-van-ban-so-73-2021-qh14-33659?cbid=35651",
+      "preferred_slug": "luat-phong-chong-ma-tuy-2021",
+      "type": "legal",
+      "source_of_truth": "official_government_gazette",
+      "downloaded_at": "2026-06-08T09:38:08.267747+00:00",
+      "files": [
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/luat-phong-chong-ma-tuy-2021.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRjbik8E0wBHUyBAiSflcQEJHAmcZL6yTIQL6RZmX61EtZRIA6qhCdHI7bAwaisGDmaN_1mqn-kBerf_4AVrsSdg~~&file_name=2021_567+%2b+568_73-2021-QH14.pdf",
+          "file_type": "pdf",
+          "bytes": 537045
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/luat-phong-chong-ma-tuy-2021.doc",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRjbik8E0wBHUyBAiSflcQEN1mhprCTqr2V-PePbKBgd6BAZ9UGId1SEmCM5S-Qfakh3lTLqF4OrPdkkjakmz65Q~~&file_name=2021_567+%2b+568_73-2021-QH14.doc",
+          "file_type": "doc",
+          "bytes": 753664
+        }
+      ],
+      "ocr_used": false,
+      "ocr_note": "Official DOC/PDF downloaded from Công báo; OCR is only needed if text extraction fails."
+    },
+    {
+      "id": "nghi_dinh_57_2022_danh_muc_chat_ma_tuy",
+      "title": "Nghị định 57/2022/NĐ-CP quy định các danh mục chất ma túy và tiền chất",
+      "publisher": "Công báo Chính phủ",
+      "issued_date": "2022-08-25",
+      "effective_date": "2022-08-25",
+      "source_url": "https://congbao.chinhphu.vn/so-do-van-ban-so-57-2022-nd-cp-37734?cbid=41623",
+      "preferred_slug": "nghi-dinh-57-2022-danh-muc-chat-ma-tuy",
+      "type": "legal",
+      "source_of_truth": "official_government_gazette",
+      "downloaded_at": "2026-06-08T09:38:10.192893+00:00",
+      "files": [
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-57-2022-danh-muc-chat-ma-tuy.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRJTjcXEdO2_Pu0JyTUYpTyPvovUt0rel_BnYVLCGNsBDgvqb3aPsQBXd_uoyKha7iidNiWTFTqwuUPbqhAyHavQ~~&file_name=2022_709+%2b+710_57-2022-N%c4%90-CP.pdf",
+          "file_type": "pdf",
+          "bytes": 543905
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-57-2022-danh-muc-chat-ma-tuy.doc",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRJTjcXEdO2_Pu0JyTUYpTyJl0JB0TRG7jeB2VBk0Fp54gI0d0pPREKUlIy4BjVhfViyFb0AIZeA9wsyUZ_WxK5Q~~&file_name=2022_709+%2b+710_57-2022-N%c4%90-CP.doc",
+          "file_type": "doc",
+          "bytes": 1671168
+        }
+      ],
+      "ocr_used": false,
+      "ocr_note": "Official DOC/PDF downloaded from Công báo; OCR is only needed if text extraction fails."
+    },
+    {
+      "id": "nghi_dinh_105_2021_huong_dan_luat_phong_chong_ma_tuy",
+      "title": "Nghị định 105/2021/NĐ-CP hướng dẫn Luật Phòng, chống ma túy",
+      "publisher": "Công báo Chính phủ",
+      "issued_date": "2021-12-04",
+      "effective_date": "2022-01-01",
+      "source_url": "https://congbao.chinhphu.vn/so-do-van-ban-so-105-2021-nd-cp-34944?cbid=37821",
+      "preferred_slug": "nghi-dinh-105-2021-huong-dan-luat-phong-chong-ma-tuy",
+      "type": "legal",
+      "source_of_truth": "official_government_gazette",
+      "downloaded_at": "2026-06-08T09:38:12.196987+00:00",
+      "files": [
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-105-2021-huong-dan-luat-phong-chong-ma-tuy.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRcmqDlxAHtAi4-m42ig5_gjgBlcWFXbWxYlcpR4jB7s3VgknKiVlOICtwCD9JumQQofh9Fqe4g4xSf0oz_ULksg~~&file_name=2021_1047+%2b+1048_105-2021-N%c4%90-CP.pdf",
+          "file_type": "pdf",
+          "bytes": 791667
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-105-2021-huong-dan-luat-phong-chong-ma-tuy.doc",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRcmqDlxAHtAi4-m42ig5_ghIhfpCvGkqVGWDgKCY1g9ldqttWlRC5DVQZYsDIez2YyFa-Du25zssfc_BNQjzGOg~~&file_name=2021_1047+%2b+1048_105-2021-N%c4%90-CP.doc",
+          "file_type": "doc",
+          "bytes": 1048576
+        }
+      ],
+      "ocr_used": false,
+      "ocr_note": "Official DOC/PDF downloaded from Công báo; OCR is only needed if text extraction fails."
+    },
+    {
+      "id": "nghi_dinh_116_2021_cai_nghien_quan_ly_sau_cai",
+      "title": "Nghị định 116/2021/NĐ-CP về cai nghiện và quản lý sau cai nghiện ma túy",
+      "publisher": "Công báo Chính phủ",
+      "issued_date": "2021-12-21",
+      "effective_date": "2022-01-01",
+      "source_url": "https://congbao.chinhphu.vn/noi-dung-van-ban-so-116-2021-nd-cp-36404?cbid=39135",
+      "preferred_slug": "nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai",
+      "type": "legal",
+      "source_of_truth": "official_government_gazette",
+      "downloaded_at": "2026-06-08T09:38:16.789994+00:00",
+      "files": [
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai_part1.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRbQZ7iCtYx3anf6B7JEw_1mI4Yh8r6Oj8stJNTLLLVWwbp1u9LdEHv-9EU3m25RfEW6hkVOgQdcIeeSSdZiRcHQ~~&file_name=2022_37+%2b+38_116-2021-N%c4%90-CP.pdf",
+          "file_type": "pdf",
+          "bytes": 1258032
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai_part1.doc",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRbQZ7iCtYx3anf6B7JEw_1h7cu7PvF73TxAaIkYOx1-fO0wDRH8eWwzMtFL10unc1Sw4gs6lHXGEeIxGJgk6ubw~~&file_name=2022_37+%2b+38_116-2021-N%c4%90-CP.doc",
+          "file_type": "doc",
+          "bytes": 1638400
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai_part2.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRbQZ7iCtYx3anf6B7JEw_1ow-o_MLbx4b_x6icKHUMlWzWE3LMeP1T-91_g8ycQCNKYoz8ITBdGpF8KaxM4a-hA~~&file_name=2022_39+%2b+40_116-2021-N%c4%90-CP.pdf",
+          "file_type": "pdf",
+          "bytes": 630430
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-116-2021-cai-nghien-quan-ly-sau-cai_part2.doc",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRbQZ7iCtYx3anf6B7JEw_1sinc0FjMKjkdUH_RF4MPlrEUzdHCE1kAisYeNUCLh_xDTdO9-EIjgDZpi6w26DAtQ~~&file_name=2022_39+%2b+40_116-2021-N%c4%90-CP.doc",
+          "file_type": "doc",
+          "bytes": 1273856
+        }
+      ],
+      "ocr_used": false,
+      "ocr_note": "Official DOC/PDF downloaded from Công báo; OCR is only needed if text extraction fails."
+    },
+    {
+      "id": "nghi_dinh_90_2024_sua_doi_danh_muc_chat_ma_tuy",
+      "title": "Nghị định 90/2024/NĐ-CP sửa đổi danh mục chất ma túy và tiền chất",
+      "publisher": "Công báo Chính phủ",
+      "issued_date": "2024-07-17",
+      "effective_date": "2024-07-17",
+      "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-90-2024-nd-cp-42369/51055.htm",
+      "preferred_slug": "nghi-dinh-90-2024-sua-doi-danh-muc-chat-ma-tuy",
+      "type": "legal",
+      "source_of_truth": "official_government_gazette",
+      "downloaded_at": "2026-06-08T09:38:18.925540+00:00",
+      "files": [
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-90-2024-sua-doi-danh-muc-chat-ma-tuy.pdf",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRoEAvkIo-zyF00kxOZ54m0-0Jl1VwotuPBtdPMQgjh_18ydLaRQM2r2BJ2In_eZFJ0G85g1206VGQeLL1wyTIog~~&file_name=2024_885+%2b+886_90-2024-N%c4%90-CP.pdf",
+          "file_type": "pdf",
+          "bytes": 335600
+        },
+        {
+          "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/legal/nghi-dinh-90-2024-sua-doi-danh-muc-chat-ma-tuy.doc",
+          "download_url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRoEAvkIo-zyF00kxOZ54m0814UDiBsvXLXYWD8pKHagXUa6nhC4Fm-Oil-YbULJE0RsOH7HNwWdj-VsmShAV5aw~~&file_name=2024_885+%2b+886_90-2024-N%c4%90-CP.doc",
+          "file_type": "doc",
+          "bytes": 622592
+        }
+      ],
+      "ocr_used": false,
+      "ocr_note": "Official DOC/PDF downloaded from Công báo; OCR is only needed if text extraction fails."
+    }
+  ],
+  "news": [
+    {
+      "id": "news_01",
+      "type": "news",
+      "publisher": "VnExpress",
+      "title": "Diễn viên hài bị tạm giữ vì",
+      "source_url": "https://vnexpress.net/dien-vien-hai-bi-tam-giu-vi-lien-quan-ma-tuy-4475240.html",
+      "published_date": "",
+      "crawled_at": "2026-06-08T16:34:14.671016",
+      "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_01.json",
+      "ocr_used": false
+    },
+    {
+      "id": "news_02",
+      "type": "news",
+      "publisher": "Tuổi Trẻ",
+      "title": "Người mẫu Nhikolai Đinh bị bắt trong chuyên án ma túy ở khu Mả Lạng, quận 1",
+      "source_url": "https://tuoitre.vn/nguoi-mau-nhikolai-dinh-bi-bat-trong-chuyen-an-ma-tuy-o-khu-ma-lang-quan-1-20240625230004986.htm",
+      "published_date": "2024-06-25T23:16:38+07:00",
+      "crawled_at": "2026-06-08T16:34:14.834182",
+      "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_02.json",
+      "ocr_used": false
+    },
+    {
+      "id": "news_03",
+      "type": "news",
+      "publisher": "Tuổi Trẻ",
+      "title": "Chu Bin bị tạm giữ vì liên quan đến",
+      "source_url": "https://cuoi.tuoitre.vn/chu-bin-bi-tam-giu-vi-lien-quan-den-mai-thi-thuy-20240606194643806.htm",
+      "published_date": "2024-06-06T19:51:59+07:00",
+      "crawled_at": "2026-06-08T16:34:15.148000",
+      "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_03.json",
+      "ocr_used": false
+    },
+    {
+      "id": "news_04",
+      "type": "news",
+      "publisher": "Tuổi Trẻ",
+      "title": "Ồn ào showbiz Việt năm 2024: Đàm Vĩnh Hưng kiện cáo, Nam Em bị phạt, đời tư của Nam Thư",
+      "source_url": "https://tuoitre.vn/on-ao-showbiz-viet-nam-2024-dam-vinh-hung-kien-cao-nam-em-bi-phat-doi-tu-cua-nam-thu-20241228091939857.htm",
+      "published_date": "2024-12-28T11:26:15+07:00",
+      "crawled_at": "2026-06-08T16:34:15.510665",
+      "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_04.json",
+      "ocr_used": false
+    },
+    {
+      "id": "news_05",
+      "type": "news",
+      "publisher": "Tuổi Trẻ",
+      "title": "Vụ Miu Lê, Long Nhật, Sơn Ngọc Minh: Nghệ sĩ phải giữ hình ảnh chỉn chu trên sân khấu lẫn ngoài đời",
+      "source_url": "https://tuoitre.vn/vu-miu-le-long-nhat-son-ngoc-minh-nghe-si-phai-giu-hinh-anh-chin-chu-tren-san-khau-lan-ngoai-doi-2026052112085492.htm",
+      "published_date": "2026-05-21T15:36:23+07:00",
+      "crawled_at": "2026-06-08T16:34:15.859053",
+      "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_05.json",
+      "ocr_used": false
+    },
+    {
+      "id": "news_06",
+      "type": "news",
+      "publisher": "Tuổi Trẻ",
+      "title": "Miu Lê bị khởi tố, tạm giam: Công ty quản lý khẳng định không bao che",
+      "source_url": "https://tuoitre.vn/miu-le-bi-khoi-to-tam-giam-cong-ty-quan-ly-khang-dinh-khong-bao-che-20260516231928239.htm",
+      "published_date": "2026-05-17T06:49:17+07:00",
+      "crawled_at": "2026-06-08T16:34:16.377464",
+      "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_06.json",
+      "ocr_used": false
+    },
+    {
+      "id": "news_07",
+      "type": "news",
+      "publisher": "Tuổi Trẻ",
+      "title": "Ca sĩ Long Nhật và Sơn Ngọc Minh mua ma túy từ đâu?",
+      "source_url": "https://tuoitre.vn/ca-si-long-nhat-va-son-ngoc-minh-mua-ma-tuy-tu-dau-20260522101239371.htm",
+      "published_date": "2026-05-22T10:26:21+07:00",
+      "crawled_at": "2026-06-08T16:34:16.762033",
+      "path": "/Users/boss/Projects/2A202600845-ChuHongMinh-Day08/data/landing/news/article_07.json",
+      "ocr_used": false
+    }
+  ]
+}

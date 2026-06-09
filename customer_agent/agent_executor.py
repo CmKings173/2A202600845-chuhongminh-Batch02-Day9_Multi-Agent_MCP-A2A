@@ -52,20 +52,41 @@ class CustomerAgentExecutor(AgentExecutor):
                 config={"configurable": {"thread_id": context_id}},
             )
 
-            # Extract the last AI message from the result
-            answer = ""
-            for msg in reversed(result.get("messages", [])):
-                if hasattr(msg, "content") and msg.content:
-                    if not isinstance(msg, HumanMessage):
-                        # Skip ToolMessages, only want final AIMessage
-                        from langchain_core.messages import AIMessage
-                        if isinstance(msg, AIMessage):
-                            answer = msg.content
-                            break
+            # Strategy: prefer the raw ToolMessage content (the full Law Agent
+            # specialist analysis) over the final AIMessage. Small local LLMs
+            # (Ollama) tend to summarize tool results instead of reproducing them
+            # verbatim, so we bypass that summary and return the actual analysis.
+            from langchain_core.messages import AIMessage, ToolMessage
 
-            if not answer:
-                # Fallback: any non-human message content
-                for msg in reversed(result.get("messages", [])):
+            messages = result.get("messages", [])
+
+            # 1. Collect all ToolMessage contents (specialist analyses)
+            tool_contents = [
+                msg.content for msg in messages
+                if isinstance(msg, ToolMessage) and msg.content
+            ]
+
+            # 2. Get the final AIMessage for context/intro
+            ai_intro = ""
+            for msg in reversed(messages):
+                if isinstance(msg, AIMessage) and msg.content:
+                    # Only use it as intro if it's clearly not a full analysis
+                    # (i.e. short wrapper text from the LLM)
+                    if len(msg.content) < 500:
+                        ai_intro = msg.content
+                    break
+
+            if tool_contents:
+                # Use the specialist analysis as the main body
+                specialist_analysis = "\n\n---\n\n".join(tool_contents)
+                if ai_intro:
+                    answer = f"{ai_intro}\n\n{specialist_analysis}"
+                else:
+                    answer = specialist_analysis
+            else:
+                # Fallback: use the final AIMessage
+                answer = ""
+                for msg in reversed(messages):
                     content = getattr(msg, "content", "")
                     if content and not isinstance(msg, HumanMessage):
                         answer = content

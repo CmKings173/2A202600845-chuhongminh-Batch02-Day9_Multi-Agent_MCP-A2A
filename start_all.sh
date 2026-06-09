@@ -1,31 +1,37 @@
 #!/bin/bash
-set -e
-
 # Start all Legal Multi-Agent System services
 # Registry must be first, then leaf agents, then orchestrators
 
+# Clean up existing processes on the target ports to avoid "port already in use" errors
+echo "Cleaning up any existing processes on ports 10000, 10100, 10101, 10102, 10103..."
+for port in 10000 10100 10101 10102 10103; do
+  pid=$(lsof -t -i:$port 2>/dev/null)
+  if [ -n "$pid" ]; then
+    echo "Killing existing process on port $port (PID: $pid)"
+    kill -9 $pid 2>/dev/null || true
+  fi
+done
+
+# Trap exit/SIGINT/SIGTERM to kill all background services when this script exits
+trap 'echo "Stopping all services..."; kill $(jobs -p) 2>/dev/null || true; exit' INT TERM EXIT
+
 echo "Starting Registry service on port 10000..."
 python -m registry &
-REGISTRY_PID=$!
 sleep 2
 
 echo "Starting Tax Agent on port 10102..."
 python -m tax_agent &
-TAX_PID=$!
 
 echo "Starting Compliance Agent on port 10103..."
 python -m compliance_agent &
-COMPLIANCE_PID=$!
 sleep 3
 
 echo "Starting Law Agent on port 10101..."
 python -m law_agent &
-LAW_PID=$!
 sleep 3
 
 echo "Starting Customer Agent on port 10100..."
 python -m customer_agent &
-CUSTOMER_PID=$!
 
 echo ""
 echo "All services started:"
@@ -41,4 +47,4 @@ echo ""
 echo "Press Ctrl+C to stop all services."
 
 # Wait for all background processes
-wait $REGISTRY_PID $TAX_PID $COMPLIANCE_PID $LAW_PID $CUSTOMER_PID
+wait
